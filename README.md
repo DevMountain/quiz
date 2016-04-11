@@ -154,7 +154,7 @@ Add the following code:
 		.state('home', {
 			url: '/',
 			templateUrl: 'components/home/homeView.html',
-			controller: 'HomeCtrl',
+			controller: 'homeCtrl',
       resolve: {
 				quizList: function (quizService) {
 					return quizService.getQuizNames();
